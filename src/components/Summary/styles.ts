@@ -1,4 +1,4 @@
-import styled, {css} from "styled-components";
+import styled, { css } from 'styled-components'
 
 export const SummaryConteinner = styled.section`
   width: 100%;
@@ -14,7 +14,7 @@ export const SummaryConteinner = styled.section`
 `
 
 interface SummaryCardProps {
-    variant?: 'green'
+  variant?: 'green'
 }
 
 export const SummaryCard = styled.div<SummaryCardProps>`
@@ -35,9 +35,9 @@ export const SummaryCard = styled.div<SummaryCardProps>`
     font-size: 2rem;
   }
 
-  ${(props) => props.variant === 'green' && css`
-    background: ${props.theme['green-700']}
-
-
+  ${(props) =>
+    props.variant === 'green' &&
+    css`
+      background: ${props.theme['green-700']};
     `}
 `

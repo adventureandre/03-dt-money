@@ -23,6 +23,30 @@
       "category": "Alimentação",
       "price": 120,
       "createdAt": "2023-09-02T01:22:59.578Z"
+    },
+    {
+      "description": "Aluguel oficina",
+      "price": 4,
+      "category": "111",
+      "type": "outcome",
+      "createdAt": "2023-09-17T22:50:59.145Z",
+      "id": 4
+    },
+    {
+      "description": "Aluguel oficina",
+      "price": 1212,
+      "category": "asdf",
+      "type": "outcome",
+      "createdAt": "2023-09-17T23:49:53.599Z",
+      "id": 5
+    },
+    {
+      "description": "leite condensado",
+      "price": 7,
+      "category": "alimentação",
+      "type": "outcome",
+      "createdAt": "2023-09-18T00:10:23.470Z",
+      "id": 6
     }
   ]
 }
